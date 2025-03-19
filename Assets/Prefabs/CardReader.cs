@@ -44,5 +44,9 @@ public class CardReader : XRSocketInteractor
         {
             swipIsValid = false;
         }
+        Debug.Log(keycardInPos);
+        Debug.Log(keycardOutPos);
+        Debug.Log(swipIsValid);
+
     }
 }

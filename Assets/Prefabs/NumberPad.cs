@@ -26,7 +26,7 @@ public class NumberPad : MonoBehaviour
     public void ButtonPressed(string numPressed)
     {
         m_CurrentEnteredCode += numPressed;
-        Debug.Log(m_CurrentEnteredCode);
+        //Debug.Log(m_CurrentEnteredCode);
         InputDisplayText.text = m_CurrentEnteredCode;
         CheckCombination();
     }
